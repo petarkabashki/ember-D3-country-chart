@@ -1,0 +1,9 @@
+<ul class="cf" {{action 'mouseout' on='mouseOut'}}>
+{{#each items as |legendItem|}}
+  {{legend/context-legend-item
+      text=legendItem
+      clicked="itemClicked"
+      mouseOver="mouseOver"
+  }}
+{{/each}}
+</ul>

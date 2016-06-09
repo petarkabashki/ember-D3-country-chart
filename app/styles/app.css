@@ -1,0 +1,82 @@
+html, body {
+  font-family: Helvetica, Arial, 'sans-serif';
+}
+
+svg {
+  display: block;
+}
+
+
+ul.cf{
+  list-style-type: none;
+}
+
+.cf li{
+
+}
+
+.cf li div {
+  padding: 0;
+  display: inline;
+}
+
+/**
+*   CONTEXT CHART
+**/
+
+.row-item__dot circle {
+  stroke: inherit;
+  stroke-width: 2px;
+  fill: #fff;
+  r: 10px
+}
+
+.row-item__dot .row-item__dot--var1 {
+  stroke: #00924b;
+}
+.row-item__dot .row-item__dot--var2 {
+  stroke: #f7931e;
+}
+.row-item__dot .row-item__dot--var3 {
+  stroke: #c7b299;
+}
+.row-item__dot .row-item__dot--var4 {
+  stroke: #29abd7;
+}
+
+.row-item__line {
+  stroke: #b3bfc4;
+  stroke-width: 2;
+}
+
+/**
+*   CONTEXT LEGEND
+**/
+
+.context-legend {
+  display: block;
+}
+.context-legend ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.context-legend .context-legend-item {
+  float: left;
+  margin-right: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-chart .var1 .row-item__dot circle.row-item__dot--var1 {
+  fill: #00924b;
+}
+.main-chart .var2 .row-item__dot circle.row-item__dot--var2 {
+  fill: #f7931e;
+}
+.main-chart .var3 .row-item__dot circle.row-item__dot--var3 {
+  fill: #c7b299;
+}
+.main-chart .var4 .row-item__dot circle.row-item__dot--var4 {
+  fill: #29abd7;
+}
